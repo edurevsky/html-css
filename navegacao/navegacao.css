@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    background-color: #ddd;
+    width: 80px;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+li a.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+li {
+    float: left;
+}
+
+/* ficará ao topo da tela ao rolar caso haja mais conteúdo */
+.sticky {
+    position: sticky;
+    top: 0px;
+}
