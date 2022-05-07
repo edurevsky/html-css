@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root {
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+}
+
+body {
+  margin: 0;
+}
+
+.vermelho {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: grey;
+}
+
+.laranja {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  overflow: hidden;
+  /* border: solid 0.5px rgb(255, 132, 0); */
+  margin: auto;
+}
+
+.verde {
+  width: 33.3%;
+  height: 40px;
+  /* border: solid 0.5px green; */
+  float: left;
+}
+
+.verde p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  font-weight: var(--light);
+  margin-top: 8px;
+  color: whitesmoke;
+}
+
+@media (max-width: 860px) {
+  .verde {
+    width: 100%;
+  }
+
+  .verde p {
+    text-align: center;
+  }
+}
