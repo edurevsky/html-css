@@ -1,0 +1,17 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 14pt;
+    border: 2px solid deepskyblue;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: deepskyblue;
+    color: white;
+}
