@@ -1,85 +1,85 @@
 .um {
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    transition: width 2s, height 2s;
-    /* transition-delay: 1s; */
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  transition: width 2s, height 2s;
+  /* transition-delay: 1s; */
 }
 
 .um:hover {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .dois {
-    margin-top: 3px;
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    transition: width 2s;
-    transition-timing-function: ease-in-out;
+  margin-top: 3px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  transition: width 2s;
+  transition-timing-function: ease-in-out;
 }
 
 .dois:hover {
-    width: 300px;
+  width: 300px;
 }
 
 .tres {
-    margin-top: 3px;
-    width: 100px;
-    height: 100px;
-    background-color: #00ffff;
-    animation: exemplo ;
-    animation-duration: 2s;
+  margin-top: 3px;
+  width: 100px;
+  height: 100px;
+  background-color: #00ffff;
+  animation: exemplo;
+  animation-duration: 2s;
 }
 
 @keyframes exemplo {
-    from {
-        background-color: #00ffff;
-    }
+  from {
+    background-color: #00ffff;
+  }
 
-    to {
-        background-color: #ff00ff;
-    }
+  to {
+    background-color: #ff00ff;
+  }
 }
 
 .quatro {
-    margin-top: 3px;
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    animation-duration: 4s;
-    animation-name: outroexemplo;
+  margin-top: 3px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  animation-duration: 4s;
+  animation-name: outroexemplo;
 }
 
 @keyframes outroexemplo {
-    0% {
-        background-color: #ff0000;
-    }
+  0% {
+    background-color: #ff0000;
+  }
 
-    25% {
-        background-color: #00ff00;
-    }
+  25% {
+    background-color: #00ff00;
+  }
 
-    50% {
-        background-color: #0000ff;
-    }
+  50% {
+    background-color: #0000ff;
+  }
 
-    100% {
-        background-color: #ff00ff;
-    }
+  100% {
+    background-color: #ff00ff;
+  }
 }
 
 .cinco {
-    margin-top: 3px;
-    width: 100px;
-    height: 100px;
-    background-color: #ff0000;
-    transition: width 2s, height 2s, transform 2s;
+  margin-top: 3px;
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  transition: width 2s, height 2s, transform 2s;
 }
 
 .cinco:hover {
-    width: 300px;
-    height: 300px;
-    transform: rotate(90deg);
+  width: 300px;
+  height: 300px;
+  transform: rotate(90deg);
 }
